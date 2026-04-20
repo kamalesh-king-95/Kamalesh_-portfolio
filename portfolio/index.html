@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+<!-- BootStrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<!-- Google Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- Animation -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<!-- Style.css -->
+     <link rel="stylesheet" href="CSS/style.css"> 
+<!-- WOW Animation -->
+       
+</head>
+<body>
+<!-- NavBar Section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">KiNG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacts">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- Hero Section -->
+       <section class="Hero d-flex align-items-center text-center">
+            <div class="container">
+                <h1 class="animate__animated animate__rotateInDownLeft text-warning">Hey, Itz KiNG</h1>
+                <p class=" animate__animated animate__rotateInUpRight text-white">We are going to to lunch soon</p>
+                <a href="#About" class=" animate__animated animate__flash btn btn-primary">Let's Eat</a>
+            </div>
+       </section>
+<!-- About Section -->
+       <section id="About">
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="gallery/11_about.jpeg" class="animate__animated animate__lightSpeedInLeft img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-6">
+              <h2 class="text-center">About Me</h2>
+              <p class="animate__animated animate__lightSpeedInRight">A king is a male monarch who holds the title of supreme ruler over a nation or territory, often inheriting the position through hereditary succession. As the head of a kingdom, a king historically wields absolute power, though modern monarchs typically operate under constitutional limitations and act as the representative head of state. The title signifies a sovereign authority higher than any other secular ruler, often symbolizing unity and continuity for their people.</p>
+              <p class="animate__animated animate__lightSpeedInRight">A responsible king is tasked with maintaining harmony, peace, and security within his domain while providing justice for all his subjects, regardless of social standing. Successful rulers often focus on welfare by ensuring available amenities, such as education, healthcare, and infrastructure, which contributes to the prosperity of their people. In times of conflict, an ideal king is expected to protect his kingdom while acting as a steward who minimizes unnecessary wars and acts in the best interests of his subjects.</p>
+
+            </div>
+          </div>
+        </div>
+       </section>
+<!-- Gallery Section -->
+       <section id="Gallery">
+        <div class="container my-5">
+          <h2 class="text-center">Gallery</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <img src="gallery/1_web.jpeg" class="animate__animated animate__zoomInUp img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="gallery/2_ecom.jpeg" class="animate__animated animate__zoomInUp img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="gallery/3_food_delivery.jpeg" class="animate__animated animate__zoomInUp img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="gallery/4_gym.jpeg" class="animate__animated animate__zoomInUp img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="gallery/5_travel.jpeg" class="animate__animated animate__zoomInUp img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="gallery/6.jpeg" class="animate__animated animate__zoomInUp img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="gallery/7.jpeg" class="animate__animated animate__zoomInUp img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="gallery/8.jpeg" class="animate__animated animate__zoomInUp img-fluid rounded" alt="">
+            </div>
+            <div class="col-md-4">
+              <img src="gallery/9.jpeg" class="animate__animated animate__zoomInUp img-fluid rounded" alt="">
+            </div>
+          </div>
+        </div>
+       </section>
+<!-- Contact Section -->
+        <section id="Contacts">
+          <div class="container">
+            <div class="row justify-content-center">
+              <h2 class="text-center mb-3"> Contact Me</h2>
+              <div class="col-md-6">
+                <form>
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="message" class="form-label">Message</label>
+    <textarea class="form-control" id="message" rows="4" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+              </div>
+            </div>
+          </div>
+        </section>
+<!-- Footer Section -->
+ <footer>
+  <div class="container my-5">
+    <div class="row bg-dark">
+      <h2 class="text-center text-white lead py-3">&copy; KiNG2k26</h2>
+    </div>
+  </div>
+ </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
